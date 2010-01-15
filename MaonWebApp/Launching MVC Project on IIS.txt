@@ -1,0 +1,5 @@
+ Use a wildcard mapping for aspnet_isapi.dll This tells IIS 6 to process all requests using ASP.NET, so routing is always invoked, and there’s no problem. It’s dead easy to set up: open IIS manager, right-click your app, go to Properties, then Home Directory tab, then click Configuration. Under Wildcard application maps, click Insert (not Add, which is confusingly just above), then enter
+ C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\aspnet_isapi.dll for “Executable”, and uncheck Verify that file exists.
+
+  else you'll be doing ASP.Net from IIS all day and not get your MVC URL's to work
+ but you do not need that for dealersites do you?

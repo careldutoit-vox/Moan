@@ -1,0 +1,16 @@
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\MoanWebAppRoot\MaonWebApp\MaonWebApp.Tests\bin\Debug\MaonWebApp.Tests.dll.config
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\MoanWebAppRoot\MaonWebApp\MaonWebApp.Tests\bin\Debug\MaonWebApp.Tests.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\MoanWebAppRoot\MaonWebApp\MaonWebApp.Tests\bin\Debug\MaonWebApp.Tests.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\MoanWebAppRoot\MaonWebApp\MaonWebApp.Tests\bin\Debug\MaonWebApp.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\MoanWebAppRoot\MaonWebApp\MaonWebApp.Tests\bin\Debug\MaonWebApp.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\MoanWebAppRoot\MaonWebApp\MaonWebApp.Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\MoanWebAppRoot\MaonWebApp\MaonWebApp.Tests\obj\Debug\MaonWebApp.Tests.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\MoanWebAppRoot\MaonWebApp\MaonWebApp.Tests\obj\Debug\MaonWebApp.Tests.pdb
+C:\Users\Careld\Documents\Visual Studio 2008\Projects\MoanWebAppRoot\MaonWebApp\MaonWebApp.Tests\bin\Debug\MaonWebApp.Tests.dll.config
+C:\Users\Careld\Documents\Visual Studio 2008\Projects\MoanWebAppRoot\MaonWebApp\MaonWebApp.Tests\bin\Debug\MaonWebApp.Tests.dll
+C:\Users\Careld\Documents\Visual Studio 2008\Projects\MoanWebAppRoot\MaonWebApp\MaonWebApp.Tests\bin\Debug\MaonWebApp.Tests.pdb
+C:\Users\Careld\Documents\Visual Studio 2008\Projects\MoanWebAppRoot\MaonWebApp\MaonWebApp.Tests\bin\Debug\MaonWebApp.dll
+C:\Users\Careld\Documents\Visual Studio 2008\Projects\MoanWebAppRoot\MaonWebApp\MaonWebApp.Tests\bin\Debug\MaonWebApp.pdb
+C:\Users\Careld\Documents\Visual Studio 2008\Projects\MoanWebAppRoot\MaonWebApp\MaonWebApp.Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Careld\Documents\Visual Studio 2008\Projects\MoanWebAppRoot\MaonWebApp\MaonWebApp.Tests\obj\Debug\MaonWebApp.Tests.dll
+C:\Users\Careld\Documents\Visual Studio 2008\Projects\MoanWebAppRoot\MaonWebApp\MaonWebApp.Tests\obj\Debug\MaonWebApp.Tests.pdb

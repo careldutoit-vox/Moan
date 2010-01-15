@@ -1,0 +1,388 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="e5c9ea3b-d1ce-441c-9e6d-dbd7990342dc" name="Administrator@VOX-DEV-CAREL 2009-03-27 10:16:35" runUser="VOX-DEV-CAREL\Administrator" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Default Run Configuration" id="8e723001-f89a-4733-a3ab-74f1bcea04be">
+    <Deployment runDeploymentRoot="C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\MoanWebAppRoot\MaonWebApp\TestResults\Administrator_VOX-DEV-CAREL 2009-03-27 10_16_35">
+      <DeploymentItem filename="C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\MoanWebAppRoot\MaonWebApp\MaonWebApp\bin\MaonWebApp.dll" />
+    </Deployment>
+    <Hosts skipUnhostableTests="false" />
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Completed">
+    <Counters total="28" executed="28" passed="28" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2009-03-27T10:16:35.7343750+02:00" queuing="2009-03-27T10:16:37.8906250+02:00" start="2009-03-27T10:16:38.0781250+02:00" finish="2009-03-27T10:16:39.2343750+02:00" />
+  <TestDefinitions>
+    <UnitTest name="ChangePasswordPostReturnsViewIfNewPasswordDoesNotMatchConfirmPassword" storage="c:\documents and settings\administrator\my documents\visual studio 2008\projects\moanwebapproot\maonwebapp\maonwebapp.tests\bin\debug\maonwebapp.tests.dll" id="5997d1bd-73ea-7f9d-9e58-3d28395eabdd">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="284e8db5-402d-4346-a208-0ead871acd50" />
+      <TestMethod codeBase="C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\MoanWebAppRoot\MaonWebApp\MaonWebApp.Tests\bin\Debug\MaonWebApp.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MaonWebApp.Tests.Controllers.AccountControllerTest, MaonWebApp.Tests" name="ChangePasswordPostReturnsViewIfNewPasswordDoesNotMatchConfirmPassword" />
+    </UnitTest>
+    <UnitTest name="ChangePasswordPostReturnsViewIfProviderRejectsPassword" storage="c:\documents and settings\administrator\my documents\visual studio 2008\projects\moanwebapproot\maonwebapp\maonwebapp.tests\bin\debug\maonwebapp.tests.dll" id="2701c67c-f38c-d20b-4afb-295efb841196">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="8ebbc006-605d-47d5-9f31-94f4ece33736" />
+      <TestMethod codeBase="C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\MoanWebAppRoot\MaonWebApp\MaonWebApp.Tests\bin\Debug\MaonWebApp.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MaonWebApp.Tests.Controllers.AccountControllerTest, MaonWebApp.Tests" name="ChangePasswordPostReturnsViewIfProviderRejectsPassword" />
+    </UnitTest>
+    <UnitTest name="RegisterPostReturnsViewIfPasswordIsTooShort" storage="c:\documents and settings\administrator\my documents\visual studio 2008\projects\moanwebapproot\maonwebapp\maonwebapp.tests\bin\debug\maonwebapp.tests.dll" id="2aed2d2b-8427-4eff-ebcd-60959809c75f">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="a86c0d00-5717-4132-bd5c-12c6304fd3a3" />
+      <TestMethod codeBase="C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\MoanWebAppRoot\MaonWebApp\MaonWebApp.Tests\bin\Debug\MaonWebApp.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MaonWebApp.Tests.Controllers.AccountControllerTest, MaonWebApp.Tests" name="RegisterPostReturnsViewIfPasswordIsTooShort" />
+    </UnitTest>
+    <UnitTest name="RegisterPostReturnsViewIfEmailNotSpecified" storage="c:\documents and settings\administrator\my documents\visual studio 2008\projects\moanwebapproot\maonwebapp\maonwebapp.tests\bin\debug\maonwebapp.tests.dll" id="130cb96d-4afe-596a-ed0c-dbb933bbb6ed">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="d4bee234-860c-4fbd-a800-999e0ca61f54" />
+      <TestMethod codeBase="C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\MoanWebAppRoot\MaonWebApp\MaonWebApp.Tests\bin\Debug\MaonWebApp.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MaonWebApp.Tests.Controllers.AccountControllerTest, MaonWebApp.Tests" name="RegisterPostReturnsViewIfEmailNotSpecified" />
+    </UnitTest>
+    <UnitTest name="RegisterPostReturnsViewIfNewPasswordDoesNotMatchConfirmPassword" storage="c:\documents and settings\administrator\my documents\visual studio 2008\projects\moanwebapproot\maonwebapp\maonwebapp.tests\bin\debug\maonwebapp.tests.dll" id="442d82f7-45ca-e47b-a1ca-f6820d5368d6">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="acc3c17e-c8af-4d71-a2a6-9d03fbff919e" />
+      <TestMethod codeBase="C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\MoanWebAppRoot\MaonWebApp\MaonWebApp.Tests\bin\Debug\MaonWebApp.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MaonWebApp.Tests.Controllers.AccountControllerTest, MaonWebApp.Tests" name="RegisterPostReturnsViewIfNewPasswordDoesNotMatchConfirmPassword" />
+    </UnitTest>
+    <UnitTest name="LoginPostReturnsViewIfUsernameOrPasswordIsIncorrect" storage="c:\documents and settings\administrator\my documents\visual studio 2008\projects\moanwebapproot\maonwebapp\maonwebapp.tests\bin\debug\maonwebapp.tests.dll" id="11843189-7563-c1a7-7e0a-1b8cd85fcec6">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="4687e12f-a934-408c-a256-5a882e390c48" />
+      <TestMethod codeBase="C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\MoanWebAppRoot\MaonWebApp\MaonWebApp.Tests\bin\Debug\MaonWebApp.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MaonWebApp.Tests.Controllers.AccountControllerTest, MaonWebApp.Tests" name="LoginPostReturnsViewIfUsernameOrPasswordIsIncorrect" />
+    </UnitTest>
+    <UnitTest name="Nags" storage="c:\documents and settings\administrator\my documents\visual studio 2008\projects\moanwebapproot\maonwebapp\maonwebapp.tests\bin\debug\maonwebapp.tests.dll" id="3b5d3c00-00ce-32cf-1ff8-471133aa456b">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="bed8e71f-cdb0-4c3b-a4dd-10fc3e07774e" />
+      <TestMethod codeBase="C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\MoanWebAppRoot\MaonWebApp\MaonWebApp.Tests\bin\Debug\MaonWebApp.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MaonWebApp.Tests.Controllers.SecureControllerTest, MaonWebApp.Tests" name="Nags" />
+    </UnitTest>
+    <UnitTest name="ChangePasswordPostReturnsViewIfNewPasswordIsTooShort" storage="c:\documents and settings\administrator\my documents\visual studio 2008\projects\moanwebapproot\maonwebapp\maonwebapp.tests\bin\debug\maonwebapp.tests.dll" id="380ec1c0-215f-6984-2340-53164fde8307">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="b5f1bb3e-7be4-443b-9671-8c29e782bd31" />
+      <TestMethod codeBase="C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\MoanWebAppRoot\MaonWebApp\MaonWebApp.Tests\bin\Debug\MaonWebApp.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MaonWebApp.Tests.Controllers.AccountControllerTest, MaonWebApp.Tests" name="ChangePasswordPostReturnsViewIfNewPasswordIsTooShort" />
+    </UnitTest>
+    <UnitTest name="LoginPostReturnsViewIfUsernameNotSpecified" storage="c:\documents and settings\administrator\my documents\visual studio 2008\projects\moanwebapproot\maonwebapp\maonwebapp.tests\bin\debug\maonwebapp.tests.dll" id="9802484a-a7c8-8316-5982-4fe5ee8e3525">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="3bc21fa6-d5a7-41dd-8185-a5b4088f8fd1" />
+      <TestMethod codeBase="C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\MoanWebAppRoot\MaonWebApp\MaonWebApp.Tests\bin\Debug\MaonWebApp.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MaonWebApp.Tests.Controllers.AccountControllerTest, MaonWebApp.Tests" name="LoginPostReturnsViewIfUsernameNotSpecified" />
+    </UnitTest>
+    <UnitTest name="RegisterGet" storage="c:\documents and settings\administrator\my documents\visual studio 2008\projects\moanwebapproot\maonwebapp\maonwebapp.tests\bin\debug\maonwebapp.tests.dll" id="a667acc6-e228-3e22-d44d-bb7a179e78b4">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="823c7919-98b7-4ae7-8c88-2236c43c3179" />
+      <TestMethod codeBase="C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\MoanWebAppRoot\MaonWebApp\MaonWebApp.Tests\bin\Debug\MaonWebApp.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MaonWebApp.Tests.Controllers.AccountControllerTest, MaonWebApp.Tests" name="RegisterGet" />
+    </UnitTest>
+    <UnitTest name="ChangePasswordSuccess" storage="c:\documents and settings\administrator\my documents\visual studio 2008\projects\moanwebapproot\maonwebapp\maonwebapp.tests\bin\debug\maonwebapp.tests.dll" id="732e5183-3a50-564c-9565-80fd054de40f">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="0987ef8d-f078-42f7-9639-e3132753e530" />
+      <TestMethod codeBase="C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\MoanWebAppRoot\MaonWebApp\MaonWebApp.Tests\bin\Debug\MaonWebApp.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MaonWebApp.Tests.Controllers.AccountControllerTest, MaonWebApp.Tests" name="ChangePasswordSuccess" />
+    </UnitTest>
+    <UnitTest name="RegisterPostReturnsViewIfPasswordIsNull" storage="c:\documents and settings\administrator\my documents\visual studio 2008\projects\moanwebapproot\maonwebapp\maonwebapp.tests\bin\debug\maonwebapp.tests.dll" id="3e623610-794a-e448-85d0-5a994807bfab">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="a3612bce-a548-481f-b399-65886a3aea61" />
+      <TestMethod codeBase="C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\MoanWebAppRoot\MaonWebApp\MaonWebApp.Tests\bin\Debug\MaonWebApp.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MaonWebApp.Tests.Controllers.AccountControllerTest, MaonWebApp.Tests" name="RegisterPostReturnsViewIfPasswordIsNull" />
+    </UnitTest>
+    <UnitTest name="Index" storage="c:\documents and settings\administrator\my documents\visual studio 2008\projects\moanwebapproot\maonwebapp\maonwebapp.tests\bin\debug\maonwebapp.tests.dll" id="40d90660-356a-7b96-ade5-6ea5ea8eeed8">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="b9c23c0e-2372-4715-b3c8-e3e4ca2fb921" />
+      <TestMethod codeBase="C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\MoanWebAppRoot\MaonWebApp\MaonWebApp.Tests\bin\Debug\MaonWebApp.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MaonWebApp.Tests.Controllers.HomeControllerTest, MaonWebApp.Tests" name="Index" />
+    </UnitTest>
+    <UnitTest name="LoginGet" storage="c:\documents and settings\administrator\my documents\visual studio 2008\projects\moanwebapproot\maonwebapp\maonwebapp.tests\bin\debug\maonwebapp.tests.dll" id="7bff8544-d4b5-f4e1-dcc6-dfb436981aaa">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="85fb7bed-f7f8-4cf1-b044-285a90b24704" />
+      <TestMethod codeBase="C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\MoanWebAppRoot\MaonWebApp\MaonWebApp.Tests\bin\Debug\MaonWebApp.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MaonWebApp.Tests.Controllers.AccountControllerTest, MaonWebApp.Tests" name="LoginGet" />
+    </UnitTest>
+    <UnitTest name="LoginPostRedirectsHomeIfLoginSuccessfulButNoReturnUrlGiven" storage="c:\documents and settings\administrator\my documents\visual studio 2008\projects\moanwebapproot\maonwebapp\maonwebapp.tests\bin\debug\maonwebapp.tests.dll" id="d363486b-c118-9d6f-0150-143b0f631fed">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="02a41608-61bb-4a40-b19f-026c880c1ea5" />
+      <TestMethod codeBase="C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\MoanWebAppRoot\MaonWebApp\MaonWebApp.Tests\bin\Debug\MaonWebApp.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MaonWebApp.Tests.Controllers.AccountControllerTest, MaonWebApp.Tests" name="LoginPostRedirectsHomeIfLoginSuccessfulButNoReturnUrlGiven" />
+    </UnitTest>
+    <UnitTest name="ChangePasswordPostReturnsViewIfNewPasswordIsNull" storage="c:\documents and settings\administrator\my documents\visual studio 2008\projects\moanwebapproot\maonwebapp\maonwebapp.tests\bin\debug\maonwebapp.tests.dll" id="95f39f74-b4fe-bc22-9a7f-36fc27d35b0f">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="e5685fea-f3e7-41d7-a676-927f7c7ded56" />
+      <TestMethod codeBase="C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\MoanWebAppRoot\MaonWebApp\MaonWebApp.Tests\bin\Debug\MaonWebApp.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MaonWebApp.Tests.Controllers.AccountControllerTest, MaonWebApp.Tests" name="ChangePasswordPostReturnsViewIfNewPasswordIsNull" />
+    </UnitTest>
+    <UnitTest name="LoginPostRedirectsToReturnUrlIfLoginSuccessfulAndReturnUrlGiven" storage="c:\documents and settings\administrator\my documents\visual studio 2008\projects\moanwebapproot\maonwebapp\maonwebapp.tests\bin\debug\maonwebapp.tests.dll" id="225c2772-3454-8891-32f6-5312bba111e9">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="375c4d27-cfed-469e-a752-473618215f72" />
+      <TestMethod codeBase="C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\MoanWebAppRoot\MaonWebApp\MaonWebApp.Tests\bin\Debug\MaonWebApp.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MaonWebApp.Tests.Controllers.AccountControllerTest, MaonWebApp.Tests" name="LoginPostRedirectsToReturnUrlIfLoginSuccessfulAndReturnUrlGiven" />
+    </UnitTest>
+    <UnitTest name="ConstructorSetsProperties" storage="c:\documents and settings\administrator\my documents\visual studio 2008\projects\moanwebapproot\maonwebapp\maonwebapp.tests\bin\debug\maonwebapp.tests.dll" id="6cd7decb-a721-c5ca-5212-e7487701fd3b">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="4c64a7a2-43e9-40b6-adcc-4a5b2884a685" />
+      <TestMethod codeBase="C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\MoanWebAppRoot\MaonWebApp\MaonWebApp.Tests\bin\Debug\MaonWebApp.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MaonWebApp.Tests.Controllers.AccountControllerTest, MaonWebApp.Tests" name="ConstructorSetsProperties" />
+    </UnitTest>
+    <UnitTest name="RegisterPostReturnsViewIfUsernameNotSpecified" storage="c:\documents and settings\administrator\my documents\visual studio 2008\projects\moanwebapproot\maonwebapp\maonwebapp.tests\bin\debug\maonwebapp.tests.dll" id="22c478af-c0d0-f3f3-bb46-ef468b7b3787">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="8279b4be-bca1-45ca-abb8-1208b4c924da" />
+      <TestMethod codeBase="C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\MoanWebAppRoot\MaonWebApp\MaonWebApp.Tests\bin\Debug\MaonWebApp.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MaonWebApp.Tests.Controllers.AccountControllerTest, MaonWebApp.Tests" name="RegisterPostReturnsViewIfUsernameNotSpecified" />
+    </UnitTest>
+    <UnitTest name="ChangePasswordPostRedirectsOnSuccess" storage="c:\documents and settings\administrator\my documents\visual studio 2008\projects\moanwebapproot\maonwebapp\maonwebapp.tests\bin\debug\maonwebapp.tests.dll" id="da9e61cd-884f-8790-1079-4330407dd2bc">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="c9fe116a-a82d-4e33-b148-1a53cd831947" />
+      <TestMethod codeBase="C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\MoanWebAppRoot\MaonWebApp\MaonWebApp.Tests\bin\Debug\MaonWebApp.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MaonWebApp.Tests.Controllers.AccountControllerTest, MaonWebApp.Tests" name="ChangePasswordPostRedirectsOnSuccess" />
+    </UnitTest>
+    <UnitTest name="About" storage="c:\documents and settings\administrator\my documents\visual studio 2008\projects\moanwebapproot\maonwebapp\maonwebapp.tests\bin\debug\maonwebapp.tests.dll" id="621d3f18-49d2-c5f2-5709-c00f4d8a1d68">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="5f35ef47-1d29-436e-b999-5182fb2fdbf6" />
+      <TestMethod codeBase="C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\MoanWebAppRoot\MaonWebApp\MaonWebApp.Tests\bin\Debug\MaonWebApp.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MaonWebApp.Tests.Controllers.HomeControllerTest, MaonWebApp.Tests" name="About" />
+    </UnitTest>
+    <UnitTest name="LoginPostReturnsViewIfPasswordNotSpecified" storage="c:\documents and settings\administrator\my documents\visual studio 2008\projects\moanwebapproot\maonwebapp\maonwebapp.tests\bin\debug\maonwebapp.tests.dll" id="fb7afba8-f031-46c7-cee3-e1eef5c1b515">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="de9262ee-5255-454e-8f90-dc424be5f3ca" />
+      <TestMethod codeBase="C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\MoanWebAppRoot\MaonWebApp\MaonWebApp.Tests\bin\Debug\MaonWebApp.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MaonWebApp.Tests.Controllers.AccountControllerTest, MaonWebApp.Tests" name="LoginPostReturnsViewIfPasswordNotSpecified" />
+    </UnitTest>
+    <UnitTest name="ChangePasswordGetReturnsView" storage="c:\documents and settings\administrator\my documents\visual studio 2008\projects\moanwebapproot\maonwebapp\maonwebapp.tests\bin\debug\maonwebapp.tests.dll" id="9f5e4d48-eb67-b032-c2d6-8bc78ae1a5c0">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="32430439-0474-410b-897c-bee5acdb64d2" />
+      <TestMethod codeBase="C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\MoanWebAppRoot\MaonWebApp\MaonWebApp.Tests\bin\Debug\MaonWebApp.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MaonWebApp.Tests.Controllers.AccountControllerTest, MaonWebApp.Tests" name="ChangePasswordGetReturnsView" />
+    </UnitTest>
+    <UnitTest name="RegisterPostRedirectsHomeIfRegistrationSuccessful" storage="c:\documents and settings\administrator\my documents\visual studio 2008\projects\moanwebapproot\maonwebapp\maonwebapp.tests\bin\debug\maonwebapp.tests.dll" id="8a998af9-4320-5e08-5543-35cbf2a86c41">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="ba9f7b1d-5437-49da-9ba5-362603c123cb" />
+      <TestMethod codeBase="C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\MoanWebAppRoot\MaonWebApp\MaonWebApp.Tests\bin\Debug\MaonWebApp.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MaonWebApp.Tests.Controllers.AccountControllerTest, MaonWebApp.Tests" name="RegisterPostRedirectsHomeIfRegistrationSuccessful" />
+    </UnitTest>
+    <UnitTest name="RegisterPostReturnsViewIfRegistrationFails" storage="c:\documents and settings\administrator\my documents\visual studio 2008\projects\moanwebapproot\maonwebapp\maonwebapp.tests\bin\debug\maonwebapp.tests.dll" id="876d30e9-18ee-fe86-2dc1-de7a46e4ef09">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="84851d9a-de4d-4b51-8fcd-56de187d6646" />
+      <TestMethod codeBase="C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\MoanWebAppRoot\MaonWebApp\MaonWebApp.Tests\bin\Debug\MaonWebApp.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MaonWebApp.Tests.Controllers.AccountControllerTest, MaonWebApp.Tests" name="RegisterPostReturnsViewIfRegistrationFails" />
+    </UnitTest>
+    <UnitTest name="LogOff" storage="c:\documents and settings\administrator\my documents\visual studio 2008\projects\moanwebapproot\maonwebapp\maonwebapp.tests\bin\debug\maonwebapp.tests.dll" id="8c832c3c-b702-2518-2b45-fb70fe094495">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="3524bd84-db66-48e1-a52c-387fa55c1123" />
+      <TestMethod codeBase="C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\MoanWebAppRoot\MaonWebApp\MaonWebApp.Tests\bin\Debug\MaonWebApp.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MaonWebApp.Tests.Controllers.AccountControllerTest, MaonWebApp.Tests" name="LogOff" />
+    </UnitTest>
+    <UnitTest name="ConstructorSetsPropertiesToDefaultValues" storage="c:\documents and settings\administrator\my documents\visual studio 2008\projects\moanwebapproot\maonwebapp\maonwebapp.tests\bin\debug\maonwebapp.tests.dll" id="a2c51ee9-2d23-35c4-370a-faf800fd73af">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="6e684da1-3167-4449-9abc-c95a02b3beac" />
+      <TestMethod codeBase="C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\MoanWebAppRoot\MaonWebApp\MaonWebApp.Tests\bin\Debug\MaonWebApp.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MaonWebApp.Tests.Controllers.AccountControllerTest, MaonWebApp.Tests" name="ConstructorSetsPropertiesToDefaultValues" />
+    </UnitTest>
+    <UnitTest name="ChangePasswordPostReturnsViewIfCurrentPasswordNotSpecified" storage="c:\documents and settings\administrator\my documents\visual studio 2008\projects\moanwebapproot\maonwebapp\maonwebapp.tests\bin\debug\maonwebapp.tests.dll" id="6410329e-518e-95b3-6111-f2030c7ab9aa">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="21a106c1-8a54-4eaa-ac90-0665a0450abd" />
+      <TestMethod codeBase="C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\MoanWebAppRoot\MaonWebApp\MaonWebApp.Tests\bin\Debug\MaonWebApp.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MaonWebApp.Tests.Controllers.AccountControllerTest, MaonWebApp.Tests" name="ChangePasswordPostReturnsViewIfCurrentPasswordNotSpecified" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="9f5e4d48-eb67-b032-c2d6-8bc78ae1a5c0" executionId="32430439-0474-410b-897c-bee5acdb64d2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="da9e61cd-884f-8790-1079-4330407dd2bc" executionId="c9fe116a-a82d-4e33-b148-1a53cd831947" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6410329e-518e-95b3-6111-f2030c7ab9aa" executionId="21a106c1-8a54-4eaa-ac90-0665a0450abd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5997d1bd-73ea-7f9d-9e58-3d28395eabdd" executionId="284e8db5-402d-4346-a208-0ead871acd50" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="95f39f74-b4fe-bc22-9a7f-36fc27d35b0f" executionId="e5685fea-f3e7-41d7-a676-927f7c7ded56" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="380ec1c0-215f-6984-2340-53164fde8307" executionId="b5f1bb3e-7be4-443b-9671-8c29e782bd31" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2701c67c-f38c-d20b-4afb-295efb841196" executionId="8ebbc006-605d-47d5-9f31-94f4ece33736" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="732e5183-3a50-564c-9565-80fd054de40f" executionId="0987ef8d-f078-42f7-9639-e3132753e530" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6cd7decb-a721-c5ca-5212-e7487701fd3b" executionId="4c64a7a2-43e9-40b6-adcc-4a5b2884a685" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a2c51ee9-2d23-35c4-370a-faf800fd73af" executionId="6e684da1-3167-4449-9abc-c95a02b3beac" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7bff8544-d4b5-f4e1-dcc6-dfb436981aaa" executionId="85fb7bed-f7f8-4cf1-b044-285a90b24704" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d363486b-c118-9d6f-0150-143b0f631fed" executionId="02a41608-61bb-4a40-b19f-026c880c1ea5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="225c2772-3454-8891-32f6-5312bba111e9" executionId="375c4d27-cfed-469e-a752-473618215f72" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fb7afba8-f031-46c7-cee3-e1eef5c1b515" executionId="de9262ee-5255-454e-8f90-dc424be5f3ca" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9802484a-a7c8-8316-5982-4fe5ee8e3525" executionId="3bc21fa6-d5a7-41dd-8185-a5b4088f8fd1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="11843189-7563-c1a7-7e0a-1b8cd85fcec6" executionId="4687e12f-a934-408c-a256-5a882e390c48" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8c832c3c-b702-2518-2b45-fb70fe094495" executionId="3524bd84-db66-48e1-a52c-387fa55c1123" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a667acc6-e228-3e22-d44d-bb7a179e78b4" executionId="823c7919-98b7-4ae7-8c88-2236c43c3179" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8a998af9-4320-5e08-5543-35cbf2a86c41" executionId="ba9f7b1d-5437-49da-9ba5-362603c123cb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="130cb96d-4afe-596a-ed0c-dbb933bbb6ed" executionId="d4bee234-860c-4fbd-a800-999e0ca61f54" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="442d82f7-45ca-e47b-a1ca-f6820d5368d6" executionId="acc3c17e-c8af-4d71-a2a6-9d03fbff919e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3e623610-794a-e448-85d0-5a994807bfab" executionId="a3612bce-a548-481f-b399-65886a3aea61" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2aed2d2b-8427-4eff-ebcd-60959809c75f" executionId="a86c0d00-5717-4132-bd5c-12c6304fd3a3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="876d30e9-18ee-fe86-2dc1-de7a46e4ef09" executionId="84851d9a-de4d-4b51-8fcd-56de187d6646" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="22c478af-c0d0-f3f3-bb46-ef468b7b3787" executionId="8279b4be-bca1-45ca-abb8-1208b4c924da" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="40d90660-356a-7b96-ade5-6ea5ea8eeed8" executionId="b9c23c0e-2372-4715-b3c8-e3e4ca2fb921" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="621d3f18-49d2-c5f2-5709-c00f4d8a1d68" executionId="5f35ef47-1d29-436e-b999-5182fb2fdbf6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3b5d3c00-00ce-32cf-1ff8-471133aa456b" executionId="bed8e71f-cdb0-4c3b-a4dd-10fc3e07774e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="32430439-0474-410b-897c-bee5acdb64d2" testId="9f5e4d48-eb67-b032-c2d6-8bc78ae1a5c0" testName="ChangePasswordGetReturnsView" computerName="VOX-DEV-CAREL" duration="00:00:00.0465120" startTime="2009-03-27T10:16:38.1406250+02:00" endTime="2009-03-27T10:16:38.6875000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c9fe116a-a82d-4e33-b148-1a53cd831947" testId="da9e61cd-884f-8790-1079-4330407dd2bc" testName="ChangePasswordPostRedirectsOnSuccess" computerName="VOX-DEV-CAREL" duration="00:00:00.0028917" startTime="2009-03-27T10:16:38.7031250+02:00" endTime="2009-03-27T10:16:38.7031250+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="21a106c1-8a54-4eaa-ac90-0665a0450abd" testId="6410329e-518e-95b3-6111-f2030c7ab9aa" testName="ChangePasswordPostReturnsViewIfCurrentPasswordNotSpecified" computerName="VOX-DEV-CAREL" duration="00:00:00.0012917" startTime="2009-03-27T10:16:38.7031250+02:00" endTime="2009-03-27T10:16:38.7187500+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="284e8db5-402d-4346-a208-0ead871acd50" testId="5997d1bd-73ea-7f9d-9e58-3d28395eabdd" testName="ChangePasswordPostReturnsViewIfNewPasswordDoesNotMatchConfirmPassword" computerName="VOX-DEV-CAREL" duration="00:00:00.0004939" startTime="2009-03-27T10:16:38.7187500+02:00" endTime="2009-03-27T10:16:38.7187500+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e5685fea-f3e7-41d7-a676-927f7c7ded56" testId="95f39f74-b4fe-bc22-9a7f-36fc27d35b0f" testName="ChangePasswordPostReturnsViewIfNewPasswordIsNull" computerName="VOX-DEV-CAREL" duration="00:00:00.0005478" startTime="2009-03-27T10:16:38.7343750+02:00" endTime="2009-03-27T10:16:38.7343750+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b5f1bb3e-7be4-443b-9671-8c29e782bd31" testId="380ec1c0-215f-6984-2340-53164fde8307" testName="ChangePasswordPostReturnsViewIfNewPasswordIsTooShort" computerName="VOX-DEV-CAREL" duration="00:00:00.0004606" startTime="2009-03-27T10:16:38.7343750+02:00" endTime="2009-03-27T10:16:38.7500000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="8ebbc006-605d-47d5-9f31-94f4ece33736" testId="2701c67c-f38c-d20b-4afb-295efb841196" testName="ChangePasswordPostReturnsViewIfProviderRejectsPassword" computerName="VOX-DEV-CAREL" duration="00:00:00.0005922" startTime="2009-03-27T10:16:38.7500000+02:00" endTime="2009-03-27T10:16:38.7500000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="0987ef8d-f078-42f7-9639-e3132753e530" testId="732e5183-3a50-564c-9565-80fd054de40f" testName="ChangePasswordSuccess" computerName="VOX-DEV-CAREL" duration="00:00:00.0005344" startTime="2009-03-27T10:16:38.7656250+02:00" endTime="2009-03-27T10:16:38.7656250+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4c64a7a2-43e9-40b6-adcc-4a5b2884a685" testId="6cd7decb-a721-c5ca-5212-e7487701fd3b" testName="ConstructorSetsProperties" computerName="VOX-DEV-CAREL" duration="00:00:00.0470612" startTime="2009-03-27T10:16:38.7656250+02:00" endTime="2009-03-27T10:16:38.8125000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="6e684da1-3167-4449-9abc-c95a02b3beac" testId="a2c51ee9-2d23-35c4-370a-faf800fd73af" testName="ConstructorSetsPropertiesToDefaultValues" computerName="VOX-DEV-CAREL" duration="00:00:00.0005187" startTime="2009-03-27T10:16:38.8281250+02:00" endTime="2009-03-27T10:16:38.8281250+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="85fb7bed-f7f8-4cf1-b044-285a90b24704" testId="7bff8544-d4b5-f4e1-dcc6-dfb436981aaa" testName="LoginGet" computerName="VOX-DEV-CAREL" duration="00:00:00.0003651" startTime="2009-03-27T10:16:38.8281250+02:00" endTime="2009-03-27T10:16:38.8281250+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="02a41608-61bb-4a40-b19f-026c880c1ea5" testId="d363486b-c118-9d6f-0150-143b0f631fed" testName="LoginPostRedirectsHomeIfLoginSuccessfulButNoReturnUrlGiven" computerName="VOX-DEV-CAREL" duration="00:00:00.0013339" startTime="2009-03-27T10:16:38.8437500+02:00" endTime="2009-03-27T10:16:38.8437500+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="375c4d27-cfed-469e-a752-473618215f72" testId="225c2772-3454-8891-32f6-5312bba111e9" testName="LoginPostRedirectsToReturnUrlIfLoginSuccessfulAndReturnUrlGiven" computerName="VOX-DEV-CAREL" duration="00:00:00.0003662" startTime="2009-03-27T10:16:38.8437500+02:00" endTime="2009-03-27T10:16:38.8593750+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="de9262ee-5255-454e-8f90-dc424be5f3ca" testId="fb7afba8-f031-46c7-cee3-e1eef5c1b515" testName="LoginPostReturnsViewIfPasswordNotSpecified" computerName="VOX-DEV-CAREL" duration="00:00:00.0004827" startTime="2009-03-27T10:16:38.8593750+02:00" endTime="2009-03-27T10:16:38.8593750+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3bc21fa6-d5a7-41dd-8185-a5b4088f8fd1" testId="9802484a-a7c8-8316-5982-4fe5ee8e3525" testName="LoginPostReturnsViewIfUsernameNotSpecified" computerName="VOX-DEV-CAREL" duration="00:00:00.0004637" startTime="2009-03-27T10:16:38.8750000+02:00" endTime="2009-03-27T10:16:38.8750000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4687e12f-a934-408c-a256-5a882e390c48" testId="11843189-7563-c1a7-7e0a-1b8cd85fcec6" testName="LoginPostReturnsViewIfUsernameOrPasswordIsIncorrect" computerName="VOX-DEV-CAREL" duration="00:00:00.0004338" startTime="2009-03-27T10:16:38.8750000+02:00" endTime="2009-03-27T10:16:38.8750000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3524bd84-db66-48e1-a52c-387fa55c1123" testId="8c832c3c-b702-2518-2b45-fb70fe094495" testName="LogOff" computerName="VOX-DEV-CAREL" duration="00:00:00.0005436" startTime="2009-03-27T10:16:38.8906250+02:00" endTime="2009-03-27T10:16:38.8906250+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="823c7919-98b7-4ae7-8c88-2236c43c3179" testId="a667acc6-e228-3e22-d44d-bb7a179e78b4" testName="RegisterGet" computerName="VOX-DEV-CAREL" duration="00:00:00.0004900" startTime="2009-03-27T10:16:38.8906250+02:00" endTime="2009-03-27T10:16:38.8906250+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ba9f7b1d-5437-49da-9ba5-362603c123cb" testId="8a998af9-4320-5e08-5543-35cbf2a86c41" testName="RegisterPostRedirectsHomeIfRegistrationSuccessful" computerName="VOX-DEV-CAREL" duration="00:00:00.0017865" startTime="2009-03-27T10:16:38.9062500+02:00" endTime="2009-03-27T10:16:38.9062500+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d4bee234-860c-4fbd-a800-999e0ca61f54" testId="130cb96d-4afe-596a-ed0c-dbb933bbb6ed" testName="RegisterPostReturnsViewIfEmailNotSpecified" computerName="VOX-DEV-CAREL" duration="00:00:00.0005045" startTime="2009-03-27T10:16:38.9218750+02:00" endTime="2009-03-27T10:16:38.9218750+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="acc3c17e-c8af-4d71-a2a6-9d03fbff919e" testId="442d82f7-45ca-e47b-a1ca-f6820d5368d6" testName="RegisterPostReturnsViewIfNewPasswordDoesNotMatchConfirmPassword" computerName="VOX-DEV-CAREL" duration="00:00:00.0005131" startTime="2009-03-27T10:16:38.9218750+02:00" endTime="2009-03-27T10:16:38.9218750+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a3612bce-a548-481f-b399-65886a3aea61" testId="3e623610-794a-e448-85d0-5a994807bfab" testName="RegisterPostReturnsViewIfPasswordIsNull" computerName="VOX-DEV-CAREL" duration="00:00:00.0005545" startTime="2009-03-27T10:16:38.9375000+02:00" endTime="2009-03-27T10:16:38.9375000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a86c0d00-5717-4132-bd5c-12c6304fd3a3" testId="2aed2d2b-8427-4eff-ebcd-60959809c75f" testName="RegisterPostReturnsViewIfPasswordIsTooShort" computerName="VOX-DEV-CAREL" duration="00:00:00.0014130" startTime="2009-03-27T10:16:38.9531250+02:00" endTime="2009-03-27T10:16:38.9687500+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="84851d9a-de4d-4b51-8fcd-56de187d6646" testId="876d30e9-18ee-fe86-2dc1-de7a46e4ef09" testName="RegisterPostReturnsViewIfRegistrationFails" computerName="VOX-DEV-CAREL" duration="00:00:00.0017278" startTime="2009-03-27T10:16:38.9843750+02:00" endTime="2009-03-27T10:16:38.9843750+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="8279b4be-bca1-45ca-abb8-1208b4c924da" testId="22c478af-c0d0-f3f3-bb46-ef468b7b3787" testName="RegisterPostReturnsViewIfUsernameNotSpecified" computerName="VOX-DEV-CAREL" duration="00:00:00.0013973" startTime="2009-03-27T10:16:39.0000000+02:00" endTime="2009-03-27T10:16:39.0156250+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b9c23c0e-2372-4715-b3c8-e3e4ca2fb921" testId="40d90660-356a-7b96-ade5-6ea5ea8eeed8" testName="Index" computerName="VOX-DEV-CAREL" duration="00:00:00.0017236" startTime="2009-03-27T10:16:39.0312500+02:00" endTime="2009-03-27T10:16:39.0312500+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5f35ef47-1d29-436e-b999-5182fb2fdbf6" testId="621d3f18-49d2-c5f2-5709-c00f4d8a1d68" testName="About" computerName="VOX-DEV-CAREL" duration="00:00:00.0004676" startTime="2009-03-27T10:16:39.0468750+02:00" endTime="2009-03-27T10:16:39.0625000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="bed8e71f-cdb0-4c3b-a4dd-10fc3e07774e" testId="3b5d3c00-00ce-32cf-1ff8-471133aa456b" testName="Nags" computerName="VOX-DEV-CAREL" duration="00:00:00.0017988" startTime="2009-03-27T10:16:39.0781250+02:00" endTime="2009-03-27T10:16:39.0781250+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

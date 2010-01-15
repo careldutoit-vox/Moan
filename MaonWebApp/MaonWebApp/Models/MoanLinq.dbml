@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database Name="MOAN" Class="MoanLinqDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=VOX-DEV-CAREL\SQLEXPRESS;Initial Catalog=MOAN;Persist Security Info=True;User ID=sa" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="MOANConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Nags" Member="Nags">
+    <Type Name="Nag">
+      <Column Name="NagsID" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="DateAdded" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Description" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="CategoryID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Content" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="PosorNeg" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="LoginID" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Association Name="Category_Nag" Member="Category" ThisKey="CategoryID" OtherKey="CatID" Type="Category" IsForeignKey="true" />
+      <Association Name="Login_Nag" Member="Login" ThisKey="LoginID" OtherKey="LoginID" Type="Login" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.BlogReviews" Member="BlogReviews">
+    <Type Name="BlogReview">
+      <Column Name="BlogReviewID" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="BlogID" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="Review" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="Rate" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="MemberID" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Association Name="Member_BlogReview" Member="Member" ThisKey="MemberID" OtherKey="MemberID" Type="Member" IsForeignKey="true" />
+      <Association Name="Blog_BlogReview" Member="Blog" ThisKey="BlogID" OtherKey="BlogID" Type="Blog" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Member" Member="Members">
+    <Type Name="Member">
+      <Column Name="MemberID" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Surname" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="IDNumber" Type="System.String" DbType="Char(13)" CanBeNull="true" />
+      <Column Name="EMail" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="CountryID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ProvID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="RegionID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="LoginID" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="RanksID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="Member_BlogReview" Member="BlogReviews" ThisKey="MemberID" OtherKey="MemberID" Type="BlogReview" />
+      <Association Name="Country_Member" Member="Country" ThisKey="CountryID" OtherKey="CountryID" Type="Country" IsForeignKey="true" />
+      <Association Name="Login_Member" Member="Login" ThisKey="LoginID" OtherKey="LoginID" Type="Login" IsForeignKey="true" />
+      <Association Name="Rank_Member" Member="Rank" ThisKey="RanksID" OtherKey="RankID" Type="Rank" IsForeignKey="true" />
+      <Association Name="PostalCode_Member" Member="PostalCode" ThisKey="RegionID" OtherKey="PostalCodeID" Type="PostalCode" IsForeignKey="true" />
+      <Association Name="Province_Member" Member="Province" ThisKey="ProvID" OtherKey="ProvID" Type="Province" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Blogs" Member="Blogs">
+    <Type Name="Blog">
+      <Column Name="BlogID" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="DateAdded" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="BlogDescription" Type="System.String" DbType="VarChar(250) NOT NULL" CanBeNull="false" />
+      <Column Name="Blog" Member="Blog1" Type="System.String" DbType="Text NOT NULL" CanBeNull="false" UpdateCheck="Never" />
+      <Association Name="Blog_BlogReview" Member="BlogReviews" ThisKey="BlogID" OtherKey="BlogID" Type="BlogReview" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Category" Member="Categories">
+    <Type Name="Category">
+      <Column Name="CatID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CatName" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="CatDescription" Type="System.String" DbType="VarChar(250)" CanBeNull="true" />
+      <Association Name="Category_Nag" Member="Nags" ThisKey="CatID" OtherKey="CategoryID" Type="Nag" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Country" Member="Countries">
+    <Type Name="Country">
+      <Column Name="CountryID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CountryName" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Association Name="Country_Member" Member="Members" ThisKey="CountryID" OtherKey="CountryID" Type="Member" />
+      <Association Name="Country_Province" Member="Provinces" ThisKey="CountryID" OtherKey="CountryID" Type="Province" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Login" Member="Logins">
+    <Type Name="Login">
+      <Column Name="LoginID" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="UserName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Password" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Association Name="Login_Nag" Member="Nags" ThisKey="LoginID" OtherKey="LoginID" Type="Nag" />
+      <Association Name="Login_Member" Member="Members" ThisKey="LoginID" OtherKey="LoginID" Type="Member" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Rank" Member="Ranks">
+    <Type Name="Rank">
+      <Column Name="RankID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="RankName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Description" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Association Name="Rank_Member" Member="Members" ThisKey="RankID" OtherKey="RanksID" Type="Member" />
+    </Type>
+  </Table>
+  <Table Name="dbo.PostalCode" Member="PostalCodes">
+    <Type Name="PostalCode">
+      <Column Name="PostalCodeID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ProvID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="AreaName" Type="System.String" DbType="VarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="PostalCodeStart" Type="System.Decimal" DbType="Decimal(5,0) NOT NULL" CanBeNull="false" />
+      <Column Name="PostalCodeEnd" Type="System.Decimal" DbType="Decimal(5,0) NOT NULL" CanBeNull="false" />
+      <Association Name="PostalCode_Member" Member="Members" ThisKey="PostalCodeID" OtherKey="RegionID" Type="Member" />
+      <Association Name="Province_PostalCode" Member="Province" ThisKey="ProvID" OtherKey="ProvID" Type="Province" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Province" Member="Provinces">
+    <Type Name="Province">
+      <Column Name="ProvID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CountryID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ProvName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Association Name="Province_Member" Member="Members" ThisKey="ProvID" OtherKey="ProvID" Type="Member" />
+      <Association Name="Province_PostalCode" Member="PostalCodes" ThisKey="ProvID" OtherKey="ProvID" Type="PostalCode" />
+      <Association Name="Country_Province" Member="Country" ThisKey="CountryID" OtherKey="CountryID" Type="Country" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>

@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 12.125" name="MoanLinq">
+  <DataContextMoniker Name="/MoanLinqDataContext" />
+  <nestedChildShapes>
+    <classShape Id="7f8bcc64-aaa8-4b77-8ded-11c5fbbb2661" absoluteBounds="4.75, 3.75, 2, 1.9178898111979166">
+      <DataClassMoniker Name="/MoanLinqDataContext/Nag" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8efb65e0-900e-4f09-a718-77b4ef98070c" absoluteBounds="4.765, 4.21, 1.9700000000000002, 1.3578898111979165" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="9270cdd8-0e41-4907-9cb3-9aac9c07b32a" absoluteBounds="7.5, 1.5, 2, 1.5891951497395829">
+      <DataClassMoniker Name="/MoanLinqDataContext/BlogReview" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8b86e281-ccd7-4c22-a65e-73ec97b07008" absoluteBounds="7.515, 1.96, 1.9700000000000002, 1.0291951497395833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="2453cef9-83ed-446c-9616-5b2179f905d4" absoluteBounds="4.75, 1.125, 2, 2.4109318033854166">
+      <DataClassMoniker Name="/MoanLinqDataContext/Member" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e3a773e6-c5a3-4108-b4fa-6a99a90ef82c" absoluteBounds="4.765, 1.585, 1.9700000000000002, 1.8509318033854165" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1d91b977-20dd-4f29-b2d3-1f3cccb2ca45" absoluteBounds="4.75, 7.625, 2, 1.4248478190104166">
+      <DataClassMoniker Name="/MoanLinqDataContext/Blog" />
+      <nestedChildShapes>
+        <elementListCompartment Id="94905b95-4b66-4a86-8272-fec1a24378de" absoluteBounds="4.765, 8.085, 1.9700000000000002, 0.86484781901041674" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="813a3d06-329e-48ec-acf6-e7518347626d" absoluteBounds="2, 4.625, 2, 1.2605004882812505">
+      <DataClassMoniker Name="/MoanLinqDataContext/Category" />
+      <nestedChildShapes>
+        <elementListCompartment Id="14564ec7-2689-4371-973f-d4f685a3917b" absoluteBounds="2.015, 5.085, 1.9700000000000002, 0.70050048828125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="aeb503dc-2aa8-4a74-9bf1-90671b074432" absoluteBounds="2, 0.75, 2, 1.0961531575520835">
+      <DataClassMoniker Name="/MoanLinqDataContext/Country" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9bbbba5f-7ff3-4da5-a7ac-dfd944e6bf7b" absoluteBounds="2.015, 1.21, 1.9700000000000002, 0.53615315755208326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e9313803-6809-412f-bdee-1b0d2d176e8e" absoluteBounds="2, 2.625, 2, 1.2605004882812505">
+      <DataClassMoniker Name="/MoanLinqDataContext/Login" />
+      <nestedChildShapes>
+        <elementListCompartment Id="cf92ee47-c127-4522-8172-e204ea997540" absoluteBounds="2.015, 3.085, 1.9700000000000002, 0.70050048828125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(6.75 : 2.29459757486979); (7.5 : 2.29459757486979)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/MoanLinqDataContext/Member/Member_BlogReview" />
+      <nodes>
+        <classShapeMoniker Id="2453cef9-83ed-446c-9616-5b2179f905d4" />
+        <classShapeMoniker Id="9270cdd8-0e41-4907-9cb3-9aac9c07b32a" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(6.75 : 8.33742390950521); (7.04166666666667 : 8.33742390950521 : JumpStart); (7.20833333333333 : 8.33742390950521 : JumpEnd); (8.5 : 8.33742390950521); (8.5 : 3.08919514973958)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/MoanLinqDataContext/Blog/Blog_BlogReview" />
+      <nodes>
+        <classShapeMoniker Id="1d91b977-20dd-4f29-b2d3-1f3cccb2ca45" />
+        <classShapeMoniker Id="9270cdd8-0e41-4907-9cb3-9aac9c07b32a" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(4 : 5.14644490559896); (4.38541666666667 : 5.14644490559896 : JumpStart); (4.67708333333333 : 5.14644490559896 : JumpEnd); (4.75 : 5.14644490559896)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/MoanLinqDataContext/Category/Category_Nag" />
+      <nodes>
+        <classShapeMoniker Id="813a3d06-329e-48ec-acf6-e7518347626d" />
+        <classShapeMoniker Id="7f8bcc64-aaa8-4b77-8ded-11c5fbbb2661" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(4 : 1.48557657877604); (4.75 : 1.48557657877604)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/MoanLinqDataContext/Country/Country_Member" />
+      <nodes>
+        <classShapeMoniker Id="aeb503dc-2aa8-4a74-9bf1-90671b074432" />
+        <classShapeMoniker Id="2453cef9-83ed-446c-9616-5b2179f905d4" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(4 : 3.88550048828125); (4.375 : 4.26050048828125); (4.375 : 3.37352570014523); (4.40982443490112 : 3.40835013504635 : JumpStart); (4.59017556509888 : 3.58870126524411 : JumpEnd); (4.75147429985477 : 3.75)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/MoanLinqDataContext/Login/Login_Nag" />
+      <nodes>
+        <classShapeMoniker Id="e9313803-6809-412f-bdee-1b0d2d176e8e" />
+        <classShapeMoniker Id="7f8bcc64-aaa8-4b77-8ded-11c5fbbb2661" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(4 : 3.08046590169271); (4.38541666666667 : 3.08046590169271 : JumpStart); (4.61458333333333 : 3.08046590169271 : JumpEnd); (4.75 : 3.08046590169271)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/MoanLinqDataContext/Login/Login_Member" />
+      <nodes>
+        <classShapeMoniker Id="e9313803-6809-412f-bdee-1b0d2d176e8e" />
+        <classShapeMoniker Id="2453cef9-83ed-446c-9616-5b2179f905d4" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="3a43c5fb-4da3-48ae-8e61-8659bc84a1a7" absoluteBounds="2, 6.75, 2, 1.2605004882812505">
+      <DataClassMoniker Name="/MoanLinqDataContext/Rank" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8731d35b-e9e0-4a57-86a4-1de78537f99b" absoluteBounds="2.015, 7.21, 1.9700000000000002, 0.70050048828125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="b7d21c13-efe7-4328-b5f0-a36fafe5de55" absoluteBounds="7.5, 10.25, 2, 1.5891951497395844">
+      <DataClassMoniker Name="/MoanLinqDataContext/PostalCode" />
+      <nestedChildShapes>
+        <elementListCompartment Id="184902ab-6f5f-4a1a-b498-53fe9435f063" absoluteBounds="7.515, 10.71, 1.9700000000000002, 1.0291951497395833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f338297b-f6bd-4e03-9ec4-e50f80f41425" absoluteBounds="4.75, 10.5, 2, 1.2605004882812487">
+      <DataClassMoniker Name="/MoanLinqDataContext/Province" />
+      <nestedChildShapes>
+        <elementListCompartment Id="480dee5a-d5eb-4008-a050-e7f8b3fbf7fe" absoluteBounds="4.765, 10.96, 1.9700000000000002, 0.70050048828125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(4 : 6.78102670432692); (4.40982443490112 : 6.3712022694258 : JumpStart); (4.52767556509888 : 6.25335113922804 : JumpEnd); (4.53125 : 6.24977670432692); (4.53125 : 2.28302124023438); (4.75 : 2.28302124023438)]" fixedFrom="NotFixed" fixedTo="Algorithm">
+      <AssociationMoniker Name="/MoanLinqDataContext/Rank/Rank_Member" />
+      <nodes>
+        <classShapeMoniker Id="3a43c5fb-4da3-48ae-8e61-8659bc84a1a7" />
+        <classShapeMoniker Id="2453cef9-83ed-446c-9616-5b2179f905d4" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(7.5 : 10.25); (7.125 : 9.875); (7.125 : 2.9465166891276); (6.75 : 2.9465166891276)]" fixedFrom="NotFixed" fixedTo="Algorithm">
+      <AssociationMoniker Name="/MoanLinqDataContext/PostalCode/PostalCode_Member" />
+      <nodes>
+        <classShapeMoniker Id="b7d21c13-efe7-4328-b5f0-a36fafe5de55" />
+        <classShapeMoniker Id="2453cef9-83ed-446c-9616-5b2179f905d4" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(4.77133054672476 : 10.5); (4.59375 : 10.3224194532752); (4.59375 : 3.69218180338542); (4.75 : 3.53593180338542)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/MoanLinqDataContext/Province/Province_Member" />
+      <nodes>
+        <classShapeMoniker Id="f338297b-f6bd-4e03-9ec4-e50f80f41425" />
+        <classShapeMoniker Id="2453cef9-83ed-446c-9616-5b2179f905d4" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(6.75 : 11.1302502441406); (7.5 : 11.1302502441406)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/MoanLinqDataContext/Province/Province_PostalCode" />
+      <nodes>
+        <classShapeMoniker Id="f338297b-f6bd-4e03-9ec4-e50f80f41425" />
+        <classShapeMoniker Id="b7d21c13-efe7-4328-b5f0-a36fafe5de55" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(4 : 1.81495395229868); (4.46875 : 2.28370395229868); (4.46875 : 10.2391119309645); (4.75 : 10.5203619309645)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/MoanLinqDataContext/Country/Country_Province" />
+      <nodes>
+        <classShapeMoniker Id="aeb503dc-2aa8-4a74-9bf1-90671b074432" />
+        <classShapeMoniker Id="f338297b-f6bd-4e03-9ec4-e50f80f41425" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
